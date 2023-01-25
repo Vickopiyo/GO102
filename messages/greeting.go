@@ -9,8 +9,8 @@ fmt.Println("Hello from main package !")
 }        
           
 const salamu = "This is a constant!!"            
-     
-func functionPrivate()  {
+    //  Cannot be exported because func begins with small letters 
+func functionPrivate()  {         
 	
    fmt.Println("Hello from Private Function")     	   
 
